@@ -1,0 +1,12 @@
+[package]
+name = "libav-sys-ng"
+version = "0.1.0"
+edition = "2021"
+author = ["NDRAEY <pikachu_andrey@vk.com>"]
+license = "MIT"
+description = "A new low-level bindings for libav*"
+
+build = "build.rs"
+
+[build-dependencies]
+bindgen = "0.69.4"

@@ -1,8 +1,8 @@
 [package]
 name = "libav-sys-ng"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
-author = ["NDRAEY <pikachu_andrey@vk.com>"]
+authors = ["NDRAEY <pikachu_andrey@vk.com>"]
 license = "MIT"
 description = "New low-level Rust bindings for libav*"
 

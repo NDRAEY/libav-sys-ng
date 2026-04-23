@@ -9,6 +9,7 @@ fn main() {
     println!("cargo:rustc-link-lib=avdevice");
     println!("cargo:rustc-link-lib=avutil");
     println!("cargo:rustc-link-lib=swscale");
+    println!("cargo:rustc-link-lib=swresample");
 
     let bindings = bindgen::Builder::default()
         .header("headers/libavfilter.h")
@@ -17,6 +18,7 @@ fn main() {
         .header("headers/libavdevice.h")
         .header("headers/libavutil.h")
         .header("headers/swscale.h")
+        .header("headers/swresample.h")
         .parse_callbacks(Box::new(bindgen::CargoCallbacks::new()))
         .blocklist_var("FP_NAN")
         .blocklist_var("FP_INFINITE")

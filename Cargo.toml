@@ -1,6 +1,6 @@
 [package]
 name = "libav-sys-ng"
-version = "0.1.3"
+version = "0.1.4"
 edition = "2021"
 authors = ["NDRAEY <pikachu_andrey@vk.com>"]
 license = "MIT"
